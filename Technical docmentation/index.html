@@ -1,0 +1,1106 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>technical documentation</title>
+            <meta charset="UTF-8" />
+            <meta name="description" content="hello muslims" />
+            <meta name="keywords" content="muslim , muslims , islam " />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="styles.css" />
+        </head>
+        <body>
+            <div class="container">
+            <nav id = "navbar">
+            <header  id = "header">
+                <h3><strong><i style = "color: deepskyblue; ">&lt;html></i>    &nbsp;:&nbsp; Introduction</strong></h3>
+            </header>
+            <div  id = "nav">
+                <a href = "#HTML_Introduction" class = "nav-link" >HTML Introduction</a>
+                <a href = "#HTML_Editors" class = "nav-link" >HTML Editors</a>
+                <a href = "#HTML_Basic_Examples" class = "nav-link">HTML Basic Examples</a>
+                <a href = "#HTML_Elements" class = "nav-link">HTML Elements</a>
+                <a href = "#HTML_Attributes" class = "nav-link">HTML Attributes</a>
+                <a href = "#HTML_Headings" class = "nav-link">HTML Headings</a>
+                <a href = "#HTML_Paragraphs" class = "nav-link">HTML Paragraphs</a>
+                <a href = "#HTML_Styles" class = "nav-link">HTML Styles</a>
+                <a href = "#HTML_Text_Formatting" class = "nav-link">HTML Text Formatting</a>
+                <a href = "#HTML_Colors" class = "nav-link">HTML Colors</a>
+                <!--
+                <a href = "#HTML_Colors" class = "nav-link">HTML Colors</a>
+                <a href = "#HTML_Links" class = "nav-link">HTML Links</a>
+                <a href = "#HTML_Images" class = "nav-link">HTML Images</a>
+                <a href = "#Reference" class = "nav-link">Reference Material</a>
+                -->
+            </div>
+            </nav >
+            
+            <main  id = "main-doc" >
+            <section class = "main-section" id = "HTML_Introduction">
+                <header>
+                <h2 >HTML Introduction</h2>
+                </header>
+                
+                    What is HTML? HTML is the standard markup language for creating Web pages.
+                    <ul>
+                        <li>HTML stands for Hyper Text Markup Language</li>
+                        <li>HTML describes the structure of Web pages using markup</li>
+                        <li>HTML elements are the building blocks of HTML pages</li>
+                        <li>HTML elements are represented by tags</li>
+                        <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</li>
+                        <li>Browsers do not display the HTML tags, but use them to render the content of the page</li>
+                    </ul>
+                
+                <h2>A Simple HTML Document</h2>
+        <code style = "color: dodgerblue; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;!DOCTYPE html>
+            &lt;html>
+            &lt;head>
+            &lt;title><strong style = "color: white;"> Page Title Goes Here </strong>&lt;/title>
+            &lt;/head>
+            &lt;body>
+            &lt;h1><strong style = "color: white;"> My First Heading </strong>&lt;/h1>
+            &lt;p><strong style = "color: white;"> My first paragraph. </strong>&lt;p>    
+            &lt;/body>
+            &lt;/html>
+            </code><br>
+                <h3>Example Explained</h3>
+                
+                    <ul>
+                    <li>The <strong>&lt;!DOCTYPE html></strong> declaration defines this document to be HTML5</li>
+                    <li>The <strong>&lt;html></strong> element is the root element of an HTML page</li>
+                    <li>The <strong>&lt;head></strong> element contains meta information about the document</li>
+                    <li>The <strong>&lt;title></strong> element specifies a title for the document</li>
+                    <li>The <strong>&lt;body></strong> element contains the visible page content</li>
+                    <li>The <strong>&lt;h1></strong> element defines a large heading</li>
+                    <li>The <strong>&lt;p></strong> element defines a paragraph</li>
+                    </ul>
+                <br>
+                
+                <h2>HTML Tags</h2>
+                <p>HTML tags are element names surrounded by angle brackets:</p>
+        <code style = "color: dodgerblue; ">
+            &lt;tagname><strong style = "color: green;"> content goes here.. </strong>&lt;/tagname>
+        
+        </code><br>
+                    <ul>
+                    <li>&lt;html> tags normally come in <strong>pairs</strong> like &lt;p> and &lt;/p></li>
+                    <li>The first tage in a pair is the <strong>start tag,</strong>  the second tag is the <strong>end tag</strong></li>
+                    <li>The end tag is written like the start tag, but with a <strong>forward slash</strong> inserted before the tag name</li>
+                    </ul>
+                    <mark><strong>TIP :</strong></mark> The start tag is also called the <strong>opening tag,</strong> and the end tag the <strong>closing tag.</strong> 
+                    <br><br><br>
+                    
+                    <h2>Web Browsers</h2>
+                    <p>The purpose of a web browser (Chrome, IE, Firefox, Safari) is to read HTML documents and display them. The browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+                    <img src= "https://lh3.googleusercontent.com/wx-Dgni7C7N7QpJjYSDTQaQBZKFjAHHiBpw6prs_CeeVuTkPL5sWgfoZ4hnhoyMpsuXR8hVWEtsK_s2j25bD3Lcsm8nFnMSqGQCWHKTnLBLfJt1tEc1nQsSUX4Lfby2JTTNlY8gxP3NnhcZVePhrtX_H_0HnDOcm0nV6mpAacF3osqmqK5FjoiEdH2CZ1e5Xb1Mv-hrIv8dnVA-wQoAjBDYBY4BvvbReFPgLA17JEVsRMcfsouIQPeHiiMUqnIUU5l-LzrTD8cuAkwGy9OSEkTvd20mTovP2SQfVbHob3eNzS3qw4zWL14ytBjFoQvLJ_vigilQAnR_gtzu5H1ZrTQMwPuMkwY-dNOT-gzmO4RrYdUYevRYLKcH6q3v-ZBzmFBHkORyhUweukYArbD1BYklTqMEY-Gr9eoDqG_Cu_2bOYcLEJsWItuJfwW3jkexF0Yl2mDkVEh5t8iExSqztn540i6p5NXURkrBE0rlfWNE4648EJO5u_XGSYvK93V9RDlcQG6aH6HNACge9OFZ7YzZd8Ag_BtPGlORpLtn6kJVhk46hvP-IhMdWqC4VAHGL2dJaXluOpG5LkDLMxt4q7wr4VMYCvS5hSCh98DhHEwN8MLUvftPd5vpvSK6N-48tqFEjX8xD-R-6QXKjmiNhg727=w962-h553-no" alt = "browser screenshot" class="main-doc-imgs"/><br><br>
+                    
+                    <h2>HTML Page Structure</h2>
+                    <p>Below is a visualization of an HTML page structure:</p>
+                    <img src= "https://lh3.googleusercontent.com/7yGDfbZBJTSIblV49vHHQVcukSoQPejRY0BQCsfBK5wQGvnrvL4TzyIoeJBbr0dngRZWMxYXnVk5EVQ3QiCmasN3cWH-6KANVRu-i65CXc8q17-ZaM6mPfbnrADiRfpTRfVgduO-wCvC9-yR9PYTMydkmU4GmfKBf4doztKUz_XPvcA18jrXevY6YdVPhzso_rtxhe5Ux8v44rgyeT70yIr5jn9Iy7TqPAiuKtGZ4CPaqVU_FDhwVPzxbZjIsgxrA8a99IXaJkKBJ_yp-z6xleJm_h1s29jrVCTdgLghNersHPhAVyCuXBxzH4vSxh3RMAKTtctC1_Qnc5ZLSzVqWehmMKsvbAsEc0z9Gie0wditY_CEe8dsgTOmoyW0yG874LXgY57dyTpamOA4JtpYDheHw4p7UhI8U1PqDB2FSumaCEFjGsUtfL1jNw7Gu0RZHymq5rJ2qgF6R7gNHwxPasbMpYkd039m3S-UB4bl8jvapk5ESzdGLWYnntN7IsWKKdXGiccYgLbthTyx8qrsStQCINH1hKC5APh8gUBAaxNyRl1fa-ZeuIb_V73rq0tmKr30nXhXiQzm6V4X--Z9L6H1oe6hcImZnuWKvUezfUPhLeRoS8DNF-AcPZX6wPJqXhfBvySYjY4oqBKEErsWBbK8=w1256-h787-no" alt = "html structure" class="main-doc-imgs"/><br>
+                    
+            </section>
+                <br><br><br><br><br>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+                
+            <section class = "main-section" id = "HTML_Editors">
+                <header>
+                <h2>HTML Editors</h2>
+                </header>
+                <p>
+                    Web pages can be created and modified by using professional HTML editors. However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac). We believe using a simple text editor is a good way to learn HTML. Follow the four steps below to create your first web page with Notepad or TextEdit.
+                </p>
+                <h3>Step 1 : Open Notepad (PC)</h3>
+                
+                    <ul>
+                    <li><strong>Windows 8 or later : </strong><br>
+                    Open the <strong>Start Screen</strong> (the window symbol at the bottom left of the screen). Type <strong>Notepad.</strong></li>
+                    <li><strong>Windows 7 or earlier : </strong><br>
+                    Open <strong>Start > Programs > Accesories > Notepad</strong></li>
+                    </ul>
+                
+                <h3>Step 1 : Open TextEdit (Mac)</h3>
+                
+                    <ul>
+                    <li>Open<strong> Finder > Applications > TextEdit</strong></li>
+                    <li>Change some preferences to get the application to save files correctly. In <strong>Preferences > Format ></strong> choose <strong>"Plain Text."</strong></li>
+                    <li>Then under "Open and Save", check the box that says "Display HTML files as HTML code instead of formatted text".</li>
+                    <li><strong>Then open a new document to place the code.</strong></li>
+                    </ul>
+                
+                <h3>Step 2 : Write Some HTML</h3>
+                <p>Write or copy some HTML into Notepad.</p>
+                <img src= "https://lh3.googleusercontent.com/wKRISwfDJF14sitaKv_s8zevgbEWqmMmCSgiMd4oDq_-4osU8hM-IHydHHKXA4X2JJLCijq1f9EPo7tlC-r05RQumMBfQ66gHqZWvL7PJjgZHz0FmqCMRJOBRBBT2as7VIdO5HhG5P85Rg7pK_0ndshRaGBE_qZFRpCuNxkx2xJZ2rMY4O9QLGGUrcOlBrFmlpP3gZpT3pg3wP-R2VPAHDmbREuhMI8NKvomZGgIbq8WT8MBnlixXd3w5PbneT53gTuzJRDd4QXvNvTQ3KBMXCWpSVx0rIQMMgIKOt67DMvgRCls_5JB1IICI5W-8QCU7qBDSG7j6WRqIV-cgBauTNDA4OLlK42JfYbYHg0dSBk9iwghCZjbQjZXq8o3YxBepRnwyRmOJlcoXdxdjaukxBpskURUiWdS8ec0NroxWLdyatZRoERZd3nH-wJ_MC0aCnrDSHo3uhsik1O5k0EbFQUHRNJXw7CT6D8HcgwEc6Ay-8QraY1AajVH8Ai5Tls7jZoMj7bPFv9aU81CLI-IaBrIw3xV6nAisUoWJYheB6g8Z9YzOGo4_n0bdxqMFDpUNH1uq-UMqWGFp_xL3pZ22Nu2iWUASfTXqOyDsoLXWerMHs_6gUEOnOdLS928JnQFZz6anUsdRLl2wIHaCIZ3LOLh=w732-h428-no" alt = "windows notepad screenshot" class="main-doc-imgs"/><br>
+                <h3>Step 3 : Save the HTML Page</h3>
+                
+                    <ul>
+                    <li>Save the file on your computer. <strong>Select File > Save as</strong> in the Notepad menu.</li>
+                    <li>Name the file <strong>"index.htm"</strong> and set the encoding to <strong>UTF-8</strong> (which is the preferred encoding for HTML files).</li>
+                    </ul>
+                <img src= "https://lh3.googleusercontent.com/7zW0IXlFRGvVJd-YpCQdE0mIepzKnnbXKhe2Cxubfet-8bVclUowlNxQSpceIsbpK5r8sz6MRQb9rrGEZACsIxCoJB3uxotehExl9CuAIIlZ3cG9bzNGJQE9OeAquNUsAHg5BuQcpq8ZRrFipY9VKxZISULmE4oA4JObARbSyTcpsn4jw7vjWmY2kVvhO35Cv-RLyRJS3ozWPp2JAAk0wNQXBm9g6P3fyhIylUd3f8_o8JPrXOFTyNJkFYTUvNG_gPZzBDHvaYqeKuEsPlKph8nfMn12GNlT2iw3WBptKQv2FX4ZtOunspYcA9IrOKF1HwaUM0ZcJejjrGxbo0yX2lf4t4NhjyZ25gjqEF4XMf-TQUmkamZE8fpFJghCJcaXPdL6acgJ61aLhiVjaw_VrdJbpqni2b-14xesMKzZTvewARYR-Xx2_gfWVa4200wvT9vRX27RADyhOe5fwtdMnUt2lvkqBr4Cx2XIUGMDstljmqrjGmRxBU6pUj0dHj6Tx_NEVrdeAAzx_m5R6lwQvhofQChqDhcTw-f5I-mwrAtU6jH4FsoLt4ZYFe9Trsr60wJ2Z2x0I7HsyZWVCraBHe8L2Xf0Q-FbUHD7kw7GqvDgJ-vnq5lO9sqi3SXDrfO5LcGXPPMbsl8aysggc2lod_kQ=w957-h298-no" alt = "saving html files" class="main-doc-imgs"/><br>
+                    <mark><strong>TIP :</strong></mark> You can use either .htm or .html as file extension. There is no difference, it is up to you. 
+                    <br><br>
+                <h3>Step 4 : View the HTML Page in Your Browser</h3>
+                
+                    <ul>
+                    <li>Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose <strong>"Open with"</strong>).</li>
+                    <li>The result will look much like this:</li>
+                    </ul>
+                <img src= "https://lh3.googleusercontent.com/L4wwGwTMLBK6VklOS0Vqd69z61ld7MLTN-Z57wzFI_Yahkrge417MRCysoalKwMD3EqcL978ZevM9XrKMQsI2Su-ALrmnGz0PKpGmVF11klaLwKz5dw-vlIVoc60Pcz23QjFEDvBUz0d3Aq9pHfzngqZIQGuBOnK6NS7UOdmT5mBQsCVQh0IwD6ioOEBRNmmaE1TZWNqLgvMBDAm-a1F77IpxxNONN5shvjYex4-L4ZnyPearGl-qYUM6NW0dfM9Nnviz1o2JcUunwfQvbNQuQ8Sql8QVavn16dyu2tP4WwGKVtg7SlB-4rX7yfPDErePhh5Zw-_fZ2EeQNYwmv0mRkDlNtuSHCew0jH8hw4YfQPnV4x7ShqnEMFg6MMKwt2exLfuuUe-U5QxbzAIolHX3jp_W6su3y5xl50IppaM2eFPSNPwhzdBK2zmhmPZHZ4ek6_vapnj6lILKmBO-M8oJ_sEUe6vLx0l6hljjjRF6OI6tB8iogPqlW9Jar66k-m7WOeAXP_mH8DszlSHpONbVj9otOwXekhp_zJGkAFvOL8BOMp0z3OB4HtFRJW_T9wJrxwaTbk7jMhEY9tacMz9Uzgqmm2rcjLnJc3QoH6mQOhnL1opG5n7MhPY8PHmmmcN2PlZAGlkfWUeBcP24XTcpSp=w962-h552-no" alt = "view youre html page" class="main-doc-imgs"/><br>
+        
+                
+            </section>
+                <br><br><br><br><br>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+            <section class = "main-section" id = "HTML_Basic_Examples">
+                <header>
+                <h2>HTML Basic Examples</h2>
+                </header>
+                <h3>Step 1 : Open Notepad (PC)</h3>
+                
+                    <ul>
+                    <li>All HTML documents must start with a document type declaration: <strong style = "color: dodgerblue;"> &lt;!DOCTYPE html></strong>.</li>
+                    <li>The HTML document itself begins with <strong style = "color: dodgerblue;">&lt;html></strong> and ends with <strong style = "color: dodgerblue;">&lt;html></strong>.</li>
+                    <li>The visible part of the HTML document is between <strong style = "color: dodgerblue;">&lt;body> </strong> and <strong style = "color: dodgerblue;"> &lt;/body></strong>.</li>
+                    </ul>
+                
+                
+        <code style = "color: dodgerblue; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;!DOCTYPE html>
+            &lt;html>
+            &lt;body>
+            
+            &lt;h1><strong style = "color: white; "> My First Heading </strong>&lt;/h1>
+            &lt;p><strong style = "color: white; "> My first paragraph. </strong>&lt;/p>
+            
+            &lt;/body>
+            &lt;/html>
+            </code><br>
+                    <h3>HTML Headings</h3>
+                
+                    <ul>
+                    <li>HTML headings are defined with the <strong style = "color: dodgerblue;"> &lt;h1> </strong> to <strong style = "color: dodgerblue;"> &lt;h6> </strong> tags.</li>
+                    <li><strong style = "color: dodgerblue;"> &lt;h1> </strong> defines the most important heading. <strong style = "color: dodgerblue;">&lt;h6></strong> defines the least important heading:</li>
+                    </ul>
+                
+        <code style = "color: dodgerblue; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;h1><strong style = "color: white; "> This is heading 1 </strong>&lt;/h1>
+            &lt;h2><strong style = "color: white; "> This is heading 2 </strong>&lt;/h2>
+            &lt;h3><strong style = "color: white; "> This is heading 3 </strong>&lt;/h3>
+            </code><br>
+                    <h3>HTML Paragraphs</h3>
+                
+                    <ul>
+                    <li>HTML paragraphs are defined with the <strong style = "color: dodgerblue;"> &lt;p> </strong> tag: </li>
+                    
+                    </ul>
+                
+        <code style = "color: dodgerblue; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;p> <strong style = "color: white;"> This is a paragraph. </strong> &lt;/p>
+            &lt;p> <strong style = "color: white;"> This is another paragraph. </strong> &lt;/p>
+            
+        </code><br>
+                <h3>HTML Links</h3>
+                
+                    <ul>
+                    <li>HTML links are defined with the <strong style = "color: tomato;"> &lt;a> </strong> tag: </li>
+                    
+                    </ul>
+                
+        <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;a href =<em style = "color: lightblue; "> "https://www.w3schools.com"</em>>
+                <em style = "color: white; "> This is a link </em>&lt;/a>
+            
+        </code>
+                
+                    <ul>
+                    <li>The link's destination is specified in the <strong style = "color: tomato;"> href </strong> attribute. </li>
+                    <li>Attributes are used to provide additional information about HTML elements. </li>
+                    <li>You will learn more about attributes in a later chapter. </li>
+                    
+                    </ul>
+                
+                <h3>HTML Images</h3>
+                
+                    <ul>
+                    <li>HTML images are defined with the <strong style = "color: tomato;"> &lt;img> </strong> tag: </li>
+                    <li>The source file (<strong style = "color: tomato;">src</strong>), alternative text (<strong style = "color: tomato;">alt</strong>), <strong style = "color: tomato;"> width </strong>, and <strong style = "color: tomato;"> height </strong>are provided as attributes: </li>
+                    </ul>
+                
+        <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;img src =<em style = "color: lightblue; "> "w3schools.jpg"</em>
+                alt = <em style = "color: lightblue; ">"w3schools.com"</em>
+                width =<em style = "color: lightblue; "> "104"</em>
+                height =<em style = "color: lightblue; "> "150"</em>>
+            
+        </code><br>
+                <h3>HTML Buttons</h3>
+                
+                    <ul>
+                    <li>HTML buttons are defined with the <strong style = "color: dodgerblue;"> &lt;button> </strong> tag: </li>
+                    
+                    </ul>
+                
+        <code style = "color: dodgerblue; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;button><em style = "color: white; "> Click me </em>&lt;/button>
+            
+        </code><br>
+        
+                <h3>HTML Lists</h3>
+                
+                    <ul>
+                    <li>HTML lists are defined with the <strong style = "color: tomato;"> &lt;ul> </strong> (unordered/bullet list) or the  <strong style = "color: tomato;"> &lt;ol> </strong> (ordered/numbered list) tag, followed by <strong style = "color: tomato;"> &lt;li> </strong> tags (list items):</li>
+                    
+                    </ul>
+                
+        <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;ul>
+                &lt;li><em style = "color: white; "> Coffee </em>&lt;li>
+                &lt;li><em style = "color: white; "> Tea </em>&lt;li>
+                &lt;li><em style = "color: white; "> Milk </em>&lt;li>
+            &lt;ul>
+            
+        </code><br>
+        
+                
+            </section>
+                <br><br><br><br><br>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+            <section class = "main-section" id = "HTML_Elements">
+                <header>
+                <h2>HTML Elements</h2>
+                </header>
+                <h3>HTML Elements</h3>      
+                <p>An HTML element usually consists of a <strong > start </strong> tag and <strong > end </strong> tag, with the content inserted in between:</p>
+                <h4 style = "color: tomato;">&lt;tagname><em style = "color: dodgerblue"> Content goes here. </em>&lt;/tagname></h4>
+                The HTML <strong> element </strong> is everything from the start tag to the end tag:
+                <h4 style = "color: tomato;">&lt;p><em style = "color: dodgerblue"> My first paragraph. </em>&lt;/p></h4>
+                <mark><strong>TIP :</strong></mark> HTML elements with no content are called empty elements. Empty elements do not have an end tag, such as the <strong style = "color: dodgerblue;">&lt;br> </strong> element (which indicates a line break).
+                
+                <h3>Nested HTML Elements</h3>
+                
+                    <ul>
+                    <li>HTML elements can be nested (elements can contain elements).</li>
+                    <li>All HTML documents consist of nested HTML elements.</li>
+                    <li>This example contains four HTML elements:</li>
+                    </ul>
+        <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;!DOCTYPE html>
+            &lt;html>
+            &lt;body>
+                
+                &lt;h1><em style = "color: white; "> My First Heading </em>&lt;/h1>
+                &lt;p><em style = "color: white; "> My first paragraph. </em>&lt;/p>
+                
+            &lt;/body>
+            &lt;/html>
+            
+        </code><br> 
+                <h3>Example Explained</h3>
+                
+                    <ul>
+                    <li>The <strong style = "color: tomato">&lt;html></strong> element defines the <strong>whole document.</strong></li>
+                    <li>It has a<strong>start</strong> tag &lt;html> and an <strong>end</strong> tag &lt;/html>.</li>
+                    <li>The element <strong>content</strong> is another HTML element (the <strong style = "color: tomato;">&lt;body></strong> element).</li>
+                    </ul>
+        <code style = "color: tomato; ">
+            &lt;html>
+            &lt;body>
+                
+                &lt;h1><em style = "color: white; "> My First Heading </em>&lt;/h1>
+                &lt;p><em style = "color: white; "> My first paragraph. </em>&lt;/p>
+                
+            &lt;/body>
+            &lt;/html>
+            
+        </code><br> 
+                <ul>
+                    <li>The <strong style = "color: tomato">&lt;body></strong> element defines the <strong>document body.</strong></li>
+                    <li>It has a <strong>start</strong> tag &lt;body> and an <strong>end</strong> tag &lt;/body>.</li>
+                    <li>The element <strong>content</strong> is two other HTML element (<strong style = "color: tomato;">&lt;h1></strong> and <strong style = "color: tomato;">&lt;p></strong>).</li>
+                    </ul>
+        <code style = "color: tomato; ">
+            &lt;body>
+                
+                &lt;h1><em style = "color: white; "> My First Heading </em>&lt;/h1>
+                &lt;p><em style = "color: white; "> My first paragraph. </em>&lt;/p>
+                
+            &lt;/body>
+            
+        </code><br> 
+                <ul>
+                    <li>The <strong style = "color: tomato">&lt;h1></strong> element defines a <strong>heading.</strong></li>
+                    <li>It has a <strong>start</strong> tag &lt;h1> and an <strong>end</strong> tag &lt;/h1>.</li>
+                    <li>The element <strong>content</strong> is: My First Heading.</li>
+                    </ul>
+        <code style = "color: tomato; ">
+            &lt;h1><em style = "color: white; "> My First Heading </em>&lt;/h1>
+                    
+        </code><br>
+                <ul>
+                    <li>The <strong style = "color: tomato">&lt;p></strong> element defines a <strong>paragrph.</strong></li>
+                    <li>It has a <strong>start</strong> tag &lt;p> and an <strong>end</strong> tag &lt;/p>.</li>
+                    <li>The element <strong>content</strong> is: My first paragraph.</li>
+                    </ul>       
+        <code style = "color: tomato; ">
+            &lt;p><em style = "color: white; "> My first paragraph.</em>&lt;/p>
+                    
+        </code><br>
+                    <h3>Do Not Forget the End Tag</h3>
+                
+                    <ul>
+                    <li>Some HTML elements will display correctly, even if you forget the end tag:</li>
+                    
+                    </ul>
+        <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;html>
+            &lt;body>
+            
+                &lt;p><em style = "color: white; "> This is a paragraph </em>&lt;/p>
+                &lt;p><em style = "color: white; "> This is a paragraph </em>&lt;/p>
+            
+            &lt;/body>
+            &lt;/html>
+            </code><br>
+                    <mark><strong>TIP :</strong></mark> The example above works in all browsers, because the closing tag is considered optional.<br> 
+                    <strong>Never rely on this. It might produce unexpected results and/or errors if you forget the end tag.</strong>
+                    
+                    
+                    <h3>Empty HTML Elements</h3>
+                    <ul>
+                    <li>HTML elements with no content are called empty elements.</li>
+                    <li><strong style = "color: tomato;">&lt;br> </strong>is an empty element without a closing tag (the <strong style = "color: tomato;">&lt;br> </strong> tag defines a line break).</li>
+                    <li>Empty elements can be "closed" in the opening tag like this: <strong style = "color: tomato;">&lt;/br>. </strong></li>
+                    <li>HTML5 does not require empty elements to be closed. But if you want stricter validation, or if you need to make your document readable by XML parsers, you must close all HTML elements properly.</li>
+                    
+                    </ul>
+                    <h3>Use Lowercase Tags</h3>
+                    <ul>
+                    <li>HTML tags are not case sensitive: &lt;P> means the same as &lt;p>.</li>
+                    <li>The HTML5 standard does not require lowercase tags, but W3C <strong> recommends </strong> lowercase in HTML, and <strong >demands</strong> lowercase for stricter document types like XHTML.</li>
+                    </ul>
+            </section>
+                <br><br><br><br><br>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+                
+                
+                
+                
+                
+            <section class = "main-section" id = "HTML_Attributes">
+                <header>
+                <h2>HTML Attributes</h2>
+                </header>
+                <p>Attributes provide additional information about HTML elements.</p>
+                <h3>HTML Attributes</h3>
+                <ul>
+                    <li>All HTML elements can have <strong >attributes</strong></li>
+                    <li>Attributes provide <strong>additional information</strong> about an element</li>
+                    <li>Attributes are always specified in <strong>the start tag</strong></li>
+                    <li>Attributes usually come in name/value pairs like: <strong>name="value"</strong></li>
+                </ul>
+                <h3>The href Attribute</h3>
+                <ul>
+                    <li>HTML links are defined with the <strong style =" color: tomato;">&lt;a></strong>tag. The link address is specified in the href attribute:</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;a href =<em style = "color: lightblue; "> "https://www.w3schools.com"</em>>
+                <em style = "color: white; "> This is a link </em>&lt;/a>
+            
+        </code><br>
+                    <h3>The src Attribute</h3>
+                <ul>
+                    <li>HTML images are defined with the <strong style =" color: tomato;">&lt;img></strong> tag.</li>
+                    <li>The filename of the image source is specified in the <strong style =" color: tomato;">src</strong> attribute:</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;img src =<em style = "color: lightblue; "> "img_girl.jpg"</em>>
+                    
+        </code><br>
+                    <h3>The width and height Attributes</h3>
+                <ul>
+                    <li>Images in HTML have a set of <strong>size</strong> attributes, which specifies the width and height of the image:</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;img src = <em style = "color: lightblue; ">"img_girl.jpg"</em> 
+                    width =<em style = "color: lightblue; "> "500"</em> 
+                    height = <em style = "color: lightblue; ">"600"</em>>
+                            
+        </code> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***The image size is specified in pixels: width="500" means 500 pixels wide.<br>
+                    
+                    <h3>The alt Attributes</h3>
+                <ul>
+                    <li>The <strong style = "color: tomato;">alt</strong> attribute specifies an alternative text to be used when an image cannot be displayed.</li>
+                    <li>The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage<br>
+                    e.g. a vision impaired person, can "hear" the element.</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;img src = <em style = "color: lightblue; ">"img_girl.jpg"</em>
+                    alt =<em style = "color: lightblue; "> "Girl with a jacket"</em>>
+                        
+        </code><br> 
+                <mark><strong>TIP :</strong></mark> The <strong style = "color: tomato;">alt</strong> attribute is also useful if the image does not exist:<br><br>
+                
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;img src = <em style = "color: lightblue; ">"img_typo.jpg"</em>
+                    alt =<em style = "color: lightblue; "> "Girl with a jacket"</em>>
+                        
+        </code><br>   
+                <h3>The style Attribute</h3>
+                <ul>
+                    <li>The <strong style = "color: tomato;">style</strong> attribute is used to specify the styling of an element, like color, font, size, etc.</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;p style = <em style = "color: lightblue; ">"color: red"</em>><em style = "color: white;">
+                    I am a paragraph </em>&lt;/p>
+                        
+        </code><br> 
+                <mark><strong>TIP :</strong></mark> You can learn more about styling from the w3schools.com <a href = "https://www.w3schools.com/css/default.asp" target = "_blank">CSS Tutorials.</a><br><br>
+                
+            <h3>The lang Attribute</h3>
+                <ul>
+                    <li>The language of the document can be declared in the <strong style = "color: tomato;">&lt;html></strong> tag.</li>
+                    <li>The language is declared with the <strong style = "color: tomato;">lang</strong> attribute.</li>
+                    <li>Declaring a language is important for accessibility applications (screen readers) and search engines:</li>
+                    </ul>
+                <code style = "color: tomato; ">
+                &lt;!DOCTYPE html>
+                &lt;html lang = <em style = "color: lightblue; ">"en-US"</em>>
+                &lt;body>
+                        
+                ...
+                        
+                &lt;/body>
+                &lt;/html>
+                        
+        </code> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***The first two letters specify the language (en). If there is a dialect, use two more letters (US).<br><br>
+                
+            <h3>The title Attribute</h3>
+                <ul>
+                    <li>Here, a <strong style = "color: tomato;">title</strong> attribute is added to the <strong style = "color: tomato;">&lt;p></strong> element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;p title = <em style = "color: lightblue; ">"I'm a tooltip"</em>>
+                    <em style = "color: white;"> this is a paragraph. </em>&lt;/p>
+                        
+        </code><br>
+                
+            <h3>We Suggest: Use Lowercase Attributes</h3>
+                <ul>
+                    <li>The HTML5 standard does not require lowercase attribute names.</li>
+                    <li>The title attribute can be written with uppercase or lowercase like <strong >title</strong> or <strong >TITLE</strong>.</li>
+                    <li>W3C <strong>recommends </strong> lowercase in HTML, and <strong >demands</strong> lowercase for stricker document types like XHTML.</li>
+                    </ul>
+                
+            <h3>We Suggest: Quote Attribute Values</h3>
+                <ul>
+                    <li>The HTML5 standard does not require quotes around attribute values.</li>
+                    <li>The <strong style = "color: tomato;" >href</strong> attribute, demonstrated above, <i>can</i> be written without quotes:</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     <strong style = "color: red;">***  BAD CODE  ***</strong>
+                &lt;a href> = <strong style = "color: lightblue;">https://www.w3schools.com</strong> ><br>
+                <strong style = "color: greenyellow;">***  GOOD CODE  ***</strong>
+                &lt;a href> = <strong style = "color: lightblue;">"https://www.w3schools.com"</strong> >
+                
+        </code> 
+                    <ul>
+                    <li>Sometimes it is  <strong >necessary</strong> to use quotes. This example will not display the title attribute correctly, because it contains a space:</li>
+                    </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;p title = <em style = "color: lightblue; ">About W3Schools</em> >
+                                    
+        </code><br>   
+                <h3>Single or Double Quotes?</h3>
+                <ul>
+                    <li>Double quotes around attribute values are the most common in HTML, but single quotes can also be used.</li>
+                    <li>In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:</li>
+                    </ul>
+                <code style = "color: tomato; ">
+                &lt;p title = <strong style = "color: lightblue;">'John "Shotgun" Nelson'</strong> >
+                <strong style = "color: white;">Or vice versa:</strong>
+                &lt;p title = <strong style = "color: lightblue;">"John 'Shotgun' Nelson"</strong> >
+                        
+        </code><br>
+                
+                <h3>Chapter Summary</h3>
+                <ul>
+                    <li>All HTML elements can have <strong>attributes</strong></li>
+                    <li>The <strong style = "color: tomato;">title</strong> attribute provides additional "tool-tip" information</li>
+                <li>The <strong style = "color: tomato;">title</strong> attribute provides additional "tool-tip" information</li>
+                <li>The <strong style = "color: tomato;">href</strong> attribute provide address information for links</li>
+                <li>The <strong style = "color: tomato;">width</strong> and <strong style = "color: tomato;">height</strong> attribute provide size information for images</li>
+                <li>The <strong style = "color: tomato;">alt</strong> attribute provides text for screen readers</li>
+                    </ul>
+                    <mark><strong>TIP :</strong></mark> Always use <strong>lowercase</strong> attribute names and always use <strong>quote</strong> attribute values with double quotes.
+                
+                    
+            </section>
+                <br><br><br><br><br>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+                
+                
+                
+            <section class = "main-section" id = "HTML_Headings">
+                <header>
+                <h2>HTML Headings</h2>
+                </header>
+                <h3>HTML Headings</h3>
+                <p>Headings are defined with the <strong style = "color: tomato;">&lt;h1></strong> to <strong style = "color: tomato;">&lt;h6></strong> tags. <strong style = "color: tomato;">&lt;h1></strong> defines the most important heading. <strong style = "color: tomato;">&lt;h6></strong> defines the least important heading.</p>
+                
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h1><em style = "color: white; "> Heading 1 </em>&lt;/h1>
+                &lt;h2><em style = "color: white; "> Heading 2 </em>&lt;/h2>
+                &lt;h3><em style = "color: white; "> Heading 3 </em>&lt;/h3>
+                &lt;h4><em style = "color: white; "> Heading 4 </em>&lt;/h4>
+                &lt;h5><em style = "color: white; "> Heading 5 </em>&lt;/h5>
+                &lt;h6><em style = "color: white; "> Heading 6 </em>&lt;/h6>
+                    
+        </code><br>
+                <mark><strong>NOTE: </strong></mark>Browsers automatically add some white space (a margin) before and after a heading.<br>
+                <h3>Headings Are Important</h3>
+                <ul>
+                    <li>Search engines use the headings to index the structure and content of your web pages.</li>
+                    <li>Users skim your pages by its headings. It is important to use headings to show the document structure.</li>
+                    <li><strong style = "color: tomato;">&lt;h1></strong> headings should be used for main headings, followed by <strong style = "color: tomato;">&lt;h2></strong> headings, then the less important <strong style = "color: tomato;">&lt;h3></strong>, and so on.</li>
+                </ul>
+                <mark><strong>NOTE: </strong></mark>Use HTML headings for headings only. Don't use headings to make text <strong>BIG</strong> or <strong>bold.</strong><br>
+                <h3>Bigger Headings</h3>
+                <p>Each HTML heading has a default size. However, you can specify the size for any heading with the <strong style = "color: tomato;">style</strong> attribute using the CSS <strong style = "color: tomato;">font-size</strong> property:</p>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h1 style = <strong style = "color: lightblue;">"font-size: 60px;"></strong>
+                <strong style = "color: white; "> Heading 1 </strong>&lt;/h1>
+                            
+        </code><br>
+                <h3>HTML Horizontal Rules</h3>
+                <ul>
+                    <li>The <strong style = "color: tomato;">&lt;hr></strong> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.</li>
+                    <li>The <strong style = "color: tomato;">&lt;hr></strong> element is used to separate content (or define a change) in an HTML page:</li>
+                    
+                </ul>
+        <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;h1><em style = "color: white; "> This is heading 1 </em>&lt;/h1>
+            &lt;p><em style = "color: white; "> This is some text. </em>&lt;/p>
+            &lt;hr>    
+            &lt;h2><em style = "color: white; "> This is heading 2 </em>&lt;/h2>
+            &lt;p><em style = "color: white; "> This is some more text. </em>&lt;/p>
+            &lt;hr>
+                </code><br>
+                
+                    <h3>The HTML &lt;head> Element</h3>
+                <ul>
+                    <li>The HTML <strong style = "color: tomato;">&lt;head></strong> element has nothing to do with HTML headings.</li>
+                    <li>The HTML <strong style = "color: tomato;">&lt;head></strong> element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.</li>
+                    <li>The <strong style = "color: tomato;">&lt;head></strong> is placed between the <strong style = "color: tomato;">&lt;html></strong> tag and the <strong style = "color: tomato;">&lt;body></strong> tag:</li>
+                    
+                </ul>
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;!DOCTYPE html>
+            &lt;html>
+            
+            &lt;head>    
+                &lt;title><strong style = "color: white; "> My First HTML </strong>&lt;/title>
+                &lt;meta charset = <strong style = "color: lightblue; "> "UTF-8" </strong>>
+            &lt;/head>
+                
+            &lt;body>
+            .
+            .
+            .
+                </code><br>
+                <mark><strong>NOTE: </strong></mark>Metadata typically define the document title, character set, styles, links, scripts, and other meta information.<br>
+                
+                    <h3>How to View HTML Source?</h3>
+                    Have you ever seen a Web page and wondered "Hey! How did they do that?"
+                <h4>View HTML Source Code:</h4>
+                    Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in IE), or similar in other browsers. This will open a window containing the HTML source code of the page.
+                    <h4>Inspect an HTML Element:</h4>
+                    Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
+                    
+            </section>
+                <br><br><br><br><br>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+                
+                
+            <section class = "main-section" id = "HTML_Paragraphs">
+                <header>
+                <h2>HTML Paragraphs</h2>
+                </header>
+                <h3>HTML Paragraphs</h3>
+                <p>
+                    The HTML <strong style = "color: tomato;">&lt;p></strong> element defines a <strong>paragraph:</strong>
+                </p>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;p><strong style = "color: white;"> This is a paragraph. </strong>&lt;p>
+            &lt;p><strong style = "color: white;"> This is another paragraph. </strong>&lt;p>
+                </code><br>
+                <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs1" target = "_blank">Give it a try >></a></div><br>
+                <mark><strong>NOTE: </strong></mark>Browsers automatically add some white space (a margin) before and after a paragraph.<br><br>
+                <h3>HTML Display</h3>
+                <ul>
+                    <li>You cannot be sure how HTML will be displayed.</li>
+                    <li>Large or small screens, and resized windows will create different results.</li>
+                    <li>With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.</li>
+                    <li>The browser will remove any extra spaces and extra lines when the page is displayed:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;p><strong style = "color: white;">
+            This paragraph
+            contains a lot of lines
+            in the source code,
+            but the browser
+            ignores it.</strong>
+            &lt;p>
+            
+            &lt;p><strong style = "color: white;">
+            This paragraph
+            contains        a lot of spaces
+            in the source           code,
+            but       the browser
+            ignores it.</strong>
+            &lt;p>
+            </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs2" target = "_blank">Give it a try >></a></div><br>
+                
+                <h3>Don't Forget the End Tag</h3>
+                <ul>
+                    <li>Most browsers will display HTML correctly even if you forget the end tag:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;p><strong style = "color: white;"> This is a paragraph. </strong>
+            &lt;p><strong style = "color: white;"> This is another paragraph. </strong>
+            </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs0" target = "_blank">Give it a try >></a></div><br>
+            
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***The example above will work in most browsers, but do not rely on it.<br><br>   
+                <mark><strong>NOTE: </strong></mark>Dropping the end tag can produce unexpected results or errors.<br><br>
+                
+                <h3>HTML Line Breaks</h3>
+                <ul>
+                    <li>The HTML <strong style = "color: tomato;"> &lt;br> </strong>element defines a <strong>line break.</strong></li>
+                    <li>Use <strong style = "color: tomato;"> &lt;br> </strong>if you want a line break (a new line) without starting a new paragraph:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;p><strong style = "color: white;"> This is</strong> &lt;br><strong style = "color: white;"> a paragraph </strong>&lt;br>
+            <strong style = "color: white;"> with line breaks.</strong> &lt;/p></strong>
+            </code><br>
+                <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_paragraphs" target = "_blank">Give it a try >></a></div><br>
+                <mark><strong>TIP :</strong></mark> The <strong style = "color: tomato; ">&lt;br></strong> tag is an empty tag, which means that it has no end tag.<br><br>
+                
+                <h3>The Poem Problem</h3>
+                <ul>
+                    <li>This poem will display on a single line:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;p><strong style = "color: white;">
+            My Bonnie lies over the ocean. 
+            My Bonnie lies over the sea.
+            My Bonnie lies over the ocean.
+            Oh, bring back my Bonnie to me.</strong>
+            &lt;/p>
+            </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_poem" target = "_blank">Give it a try >></a></div><br>
+            
+                <h3>The HTML &lt;pre> Element</h3>
+                <ul>
+                    <li>The HTML <strong style = "color: tomato;">&lt;pre></strong> element defines preformatted text.</li>
+                    <li>The text inside a <strong style = "color: tomato;">&lt;pre></strong> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+            &lt;pre><strong style = "color: white;">
+            My Bonnie lies over the ocean. 
+            My Bonnie lies over the sea.
+            My Bonnie lies over the ocean.
+            Oh, bring back my Bonnie to me.</strong>
+            &lt;/pre>
+            </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_pre" target = "_blank">Give it a try >></a></div><br>
+            </section>
+                
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+                
+                
+            <section class = "main-section" id = "HTML_Styles">
+                <header>
+                <h2>HTML Styles</h2>
+                </header>
+                        
+                <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                <strong style = "color: red; "> I am Red </strong>
+                <strong style = "color: blue; "> I am Blue </strong>
+                <strong style = "color: white; font-size: 50px;"> I am Big </strong>
+                            
+        </code><br>
+                <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_intro" target = "_blank">Give it a try >></a></div><br>
+                <h3>The HTML Style Attribute</h3>
+                
+                <ul>
+                    <li>Setting the style of an HTML element, can be done with the <strong style = "color: tomato;">style</strong> attribute.</li>
+                    <li>The HTML <strong style = "color: tomato;">style</strong> attibute has the following <strong>syntax:</strong></li>
+                </ul>
+            <code style = "color: tomato; ">
+            &lt;tagname style = <i style = "color: lightblue">"property:value"</i> >
+            </code>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***The <strong><i>property</i></strong> is a CSS property. The <strong><i>value</i></strong> is a CSS value.<br><br>    
+                <h3>HTML Background Color</h3>
+                
+                <ul>
+                    <li>The <strong style = "color: tomato;">background-color</strong> property defines the background color for an HTML element.</li>
+                    <li>This example sets the background color for a page to powderblue:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;body style =<strong style = "color: lightblue;"> "background-color:powderblue;"</strong> >
+                
+                &lt;h1><strong style = "color: white; "> This is a heading </strong>&lt;/h1>
+                &lt;p><strong style = "color: white; "> This is a paragraph. </strong>&lt;/p>
+                                    
+                &lt;/body>
+                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_background-color" target = "_blank">Give it a try >></a></div><br>
+                
+                <h3>HTML Text Color</h3>
+                
+                <ul>
+                    <li>The <strong style = "color: tomato;">color</strong> property defines the text color for an HTML element:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h1 style =<strong style = "color: lightblue;"> "color:blue;"</strong> ><strong style = "color: white; "> 
+                    This is a heading </strong>&lt;/h1>
+                &lt;p style =<strong style = "color: lightblue;"> "color:red;"</strong> ><strong style = "color: white; "> 
+                    This is a paragraph.</strong>&lt;/p>
+                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_color" target = "_blank">Give it a try >></a></div><br>
+                
+                <h3>HTML Fonts</h3>
+                
+                <ul>
+                    <li>The <strong style = "color: tomato;">font-family</strong> property defines the font to be used for an HTML element:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h1 style =<strong style = "color: lightblue;"> "font-family:verdana;"</strong> ><strong style = "color: white; "> 
+                    This is a heading </strong>&lt;/h1>
+                &lt;p style =<strong style = "color: lightblue;"> "font-family:courier;"</strong> ><strong style = "color: white; "> 
+                    This is a paragraph.</strong>&lt;/p>
+                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-family" target = "_blank">Give it a try >></a></div><br>
+                
+                <h3>HTML Text Size</h3>
+                
+                <ul>
+                    <li>The <strong style = "color: tomato;">font-size</strong> property defines the text size for an HTML element:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h1 style =<strong style = "color: lightblue;"> "font-size:300%;"</strong> ><strong style = "color: white; "> 
+                    This is a heading </strong>&lt;/h1>
+                &lt;p style =<strong style = "color: lightblue;"> "font-size:160%;"</strong> ><strong style = "color: white; "> 
+                    This is a paragraph.</strong>&lt;/p>
+                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-size" target = "_blank">Give it a try >></a></div><br>
+                
+                <h3>HTML Text Alignment</h3>
+                
+                <ul>
+                    <li>The <strong style = "color: tomato;">text-align</strong> property defines the horizontal text alignment for an HTML element:</li>
+                </ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h1 style =<strong style = "color: lightblue;"> "text-align:center;"</strong> ><strong style = "color: white; "> 
+                    Centered Heading </strong>&lt;/h1>
+                &lt;p style =<strong style = "color: lightblue;"> "text-align:center;"</strong> ><strong style = "color: white; "> 
+                    Centered paragraph.</strong>&lt;/p>
+                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_text-align" target = "_blank">Give it a try >></a></div><br>
+                                                            
+                
+                <h3>Chapter Summary</h3>
+                <ul>
+                    <li>Use the <strong style = "color: tomato;">style</strong> attribute for styling HTML elements</li>
+                    <li>Use <strong style = "color: tomato;">background-color</strong> for background color</li>
+                    <li>Use <strong style = "color: tomato;">color</strong> for text colors</li>
+                    <li>Use <strong style = "color: tomato;">font-family</strong> for text fonts</li>
+                    <li>Use <strong style = "color: tomato;">font-size</strong> for text sizes</li>
+                    <li>Use <strong style = "color: tomato;">text-align</strong> for text alignment</li>
+                    
+                
+            </section>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+                
+                
+                
+            <section class = "main-section" id = "HTML_Text_Formatting">
+                <header>
+                <h2>HTML Text Formatting</h2>
+                </header>
+                <p>
+                    Text Formatting
+                </p>
+                <code style = "color: white; ">
+                <strong style = "color: white; font-weight: bolder;"> This text is bold </strong>
+                <i style = "color: white; "> This text is italic </i>
+                    This is <sub >subscript</sub> and <sup >superscript</sup>
+                            
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_intro" target = "_blank">Give it a try >></a></div><br>
+                <h3>HTML Formatting Elements</h3>
+                <ul>
+                    <li>In the previous chapter, you learned about the HTML <strong >style attribute.</strong></li>
+                    <li>HTML also defines special <strong>elements</strong> for defining text with a special <strong>meaning.</strong></li>
+                    <li>HTML uses elements like <strong style = "color: tomato;">&lt;b></strong> and <strong style = "color: tomato;">&lt;i></strong> for formatting output, like <strong>bold</strong> or <i>italic</i> text.</li>
+                    <li>Formatting elements were designed to display special types of text:</li>
+                    <ul>
+                    <li><strong style = "color: tomato;">&lt;b></strong> - Bold text</li>
+                    <li><strong style = "color: tomato;">&lt;strong></strong> - Important text</li>
+                    <li><strong style = "color: tomato;">&lt;i></strong> - Italic text</li>
+                    <li><strong style = "color: tomato;">&lt;em></strong> - Emphasized text</li>
+                    <li><strong style = "color: tomato;">&lt;mark></strong> - Marked text</li>
+                    <li><strong style = "color: tomato;">&lt;small></strong> - Small text</li>
+                    <li><strong style = "color: tomato;">&lt;del></strong> - Deleted text</li>
+                    <li><strong style = "color: tomato;">&lt;ins></strong> - Inserted text</li>
+                    <li><strong style = "color: tomato;">&lt;sub></strong> - Subscript text</li>
+                    <li><strong style = "color: tomato;">&lt;sup></strong> - Superscript text</li>
+                    </ul>
+                </ul><br>
+                    
+                    <h3>HTML &lt;b> and &lt;strong> Elements</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;b></strong > element defines <strong>bold</strong> text, without any extra importance.</li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;b><strong style = "color: white; font-weight: normal;"> This text is bold </strong>&lt;/b>
+                    
+        </code><br>
+            
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_b" target = "_blank">Give it a try >></a></div><br>
+            
+            <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;strong></strong > element defines <strong>strong</strong> text, with added semantic "strong" importance.</li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;strong><strong style = "color: white; font-weight: normal;"> This text strong </strong>&lt;/strong>
+                    
+        </code><br>
+            
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_b" target = "_blank">Give it a try >></a></div><br>
+            
+            <h3>HTML &lt;i> and &lt;em> Elements</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;i></strong > element defines <i>italic</i> text, without any extra importance.</li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;i><i style = "color: white; "> This text is italic </i>&lt;/i>
+                    
+        </code><br>
+            
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_i" target = "_blank">Give it a try >></a></div><br>
+            <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;em></strong > element defines <i>emphasized</i> text, with added semantic importance.</li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;em><strong style = "color: white; font-weight: normal;"> This text is emphasized </strong>&lt;/em>
+                    
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_em" target = "_blank">Give it a try >></a></div><br>
+            <mark><strong>NOTE: </strong></mark>Browsers display <strong style = "color: tomato;">&lt;strong></strong> as <strong style = "color: tomato;">&lt;b></strong>, and <strong style = "color: tomato;">&lt;em></strong> as <strong style = "color: tomato;">&lt;i></strong>. However, there is a difference in the meaning of these tags: <strong style = "color: tomato;">&lt;b></strong> and <strong style = "color: tomato;">&lt;i></strong> defines bold and italic text, but <strong style = "color: tomato;">&lt;strong></strong> and <strong style = "color: tomato;">&lt;em></strong> means that the text is "important".<br><br>
+                <h3>HTML &lt;small> Element</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;small></strong > element defines <small>smaller</small> text: </li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h2> <strong style = "color: white; font-weight: normal; ">HTML </strong>&lt;small><strong style = "color: white; font-weight: normal; ">Small</strong>&lt;/small>
+                    <strong style = "color: white; font-weight: normal; "> Formatting</strong> &lt;/h2>
+                    
+        </code><br>
+                    
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_small" target = "_blank">Give it a try >></a></div><br>
+            
+            <h3>HTML &lt;mark> Element</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;mark></strong > element defines <mark>marked</mark> or <mark>highlighted</mark> text: </li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;h2> <strong style = "color: white; font-weight: normal; ">HTML </strong>&lt;mark><strong style = "color: white; font-weight: normal; ">Marked</strong>&lt;/mark>
+                    <strong style = "color: white; font-weight: normal; "> Formatting</strong> &lt;/h2>
+                    
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_mark" target = "_blank">Give it a try >></a></div><br>
+            
+            <h3>HTML &lt;del> Element</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;del></strong > element defines <del>deleted</del> (removed) text. </li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;p> <strong style = "color: white; font-weight: normal; ">My favorite color is </strong>
+                    &lt;del><strong style = "color: white; font-weight: normal; ">blue</strong>&lt;/del> <strong style = "color: white; font-weight: normal; ">red.</strong>&lt;/p>
+                                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_del" target = "_blank">Give it a try >></a></div><br>
+            
+            <h3>HTML &lt;ins> Element</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;ins></strong > element defines <ins>inserted</ins> (added) text. </li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;p> <strong style = "color: white; font-weight: normal; ">My favorite </strong>
+                    &lt;ins><strong style = "color: white; font-weight: normal; ">color</strong>&lt;/ins> <strong style = "color: white; font-weight: normal; ">is red.</strong>&lt;/p>
+                                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_ins" target = "_blank">Give it a try >></a></div><br>
+            
+            <h3>HTML &lt;sub> Element</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;sub></strong > element defines <sub>subscripted</sub> text. </li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;p> <strong style = "color: white; font-weight: normal; ">This is </strong>
+                    &lt;sub><sub style = "color: white; font-weight: normal; ">subscripted</sub>&lt;/sub> <strong style = "color: white; font-weight: normal; ">text.</strong>&lt;/p>
+                                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_sub" target = "_blank">Give it a try >></a></div><br>
+            
+            <h3>HTML &lt;sup> Element</h3>
+                <ul>
+                    <li>The HTML  <strong style = "color: tomato; font-weight: normal">&lt;sup></strong > element defines <sup>superscripted</sup> text. </li></ul>
+            <code style = "color: tomato; "><br>     ***  EXAMPLE CODE  ***<br>
+                &lt;p> <strong style = "color: white; font-weight: normal; ">This is </strong>
+                    &lt;sup><sup style = "color: white; font-weight: normal; ">superscripted</sup>&lt;/sup> <strong style = "color: white; font-weight: normal; ">text.</strong>&lt;/p>
+                                
+        </code><br>
+            <div class = "w3c-editor-link">
+            <a href = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_sup" target = "_blank">Give it a try >></a></div><br>
+            
+            
+            </section>
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>TOP</strong></a><br><br><br>
+                
+                </div>
+                <hr ><br>
+                
+                
+                
+                
+                
+                
+                
+            <section class = "main-section" id = "HTML_Colors">
+                <header>
+                <h2>HTML Colors</h2>
+                </header>
+                <p>
+                    HTML colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+                </p>
+                
+                <h3>Color Names</h3>
+                <ul>
+                    <li>In HTML, a color can be specified by using a color name: </li>
+                </ul>
+                <div class = "color-grid">
+                <div class = "color-box" style="background-color:tomato;"><h4>Tomato</h4></div>
+                <div class = "color-box" style="background-color:orange;"><h4>Orange</h4></div>
+                <div class = "color-box" style="background-color:dodgerblue;"><h4>Dodgerblue</h4></div>
+                <div class = "color-box" style="background-color:MediumSeaGreen;"><h4>MediumSeaGreen</h4></div>
+                <div class = "color-box" style="background-color:gray;"><h4>Gray</h4></div>
+                <div class = "color-box" style="background-color:Slateblue;"><h4>Slateblue</h4></div>
+                <div class = "color-box" style="background-color:Violet;"><h4>Violet</h4></div>
+                <div class = "color-box" style="background-color:lightgray;"><h4>Lightgray</h4></div>
+                </div>
+                
+            </section> 
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>&uarr;</strong></a>
+                </div>
+                <!--
+            <section class = "main-section" id = "HTML_Links">
+                <header>
+                <h2>Basic Site Project</h2>
+                </header>
+                <p>
+                    <code>
+                    
+                    </code>
+                </p>
+            </section> 
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>&uarr;</strong></a>
+                </div>
+            <section class = "main-section" id = "HTML_Images">
+                <header>
+                <h2>Basic Site Project</h2>
+                </header>
+                <p>
+                    <code>
+                    </code>
+                </p>
+            </section> 
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>&uarr;</strong></a>
+                </div>
+            <section class = "main-section" id = "References">
+                <header>
+                <h2>Basic Site Project</h2>
+                </header>
+                <p>
+                    <code>
+                    
+                    </code>
+                </p>
+            </section> 
+                <div class="back-to-top">
+                <a href = "#navbar" ><strong>&uarr;</strong></a>
+                </div>
+                
+                -->
+            </main>
+            </div>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" ></script> 
+        </body>
+    </html>

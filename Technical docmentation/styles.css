@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Hind+Guntur|Sedgwick+Ave|Roboto');
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red; 
+}
+
+html,body{
+    color: lightslategray;
+    font-family: "Roboto", cursive;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    position:fixed;
+    background-color: lightslategray;
+    top:0;
+    left:0;
+    width:30%;
+    height:100%;
+}
+header h3{
+    color:white;
+    font-size: 1.8em;
+    margin:0px;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.main-section header{
+    text-align: left;
+    margin: 0px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    overflow:auto;
+    height:100%;
+    font-size:1.3rem;
+}
+#navbar a{
+    text-decoration:none;
+    cursor:pointer;
+}
+.nav-link {
+    padding-left: 40px;
+    color: white;
+    margin-top: 10px;
+}
+#main-doc{
+    position:absolute;
+    margin-left:33%;
+    margin-bottom: 100px;
+    padding:20px;
+}
+p::first-letter {
+    font-size: 30px;
+    color: lightslategray;
+}
+.back-to-top{
+    text-align: center;
+    display:none;
+    font-size: 1.0em;
+    font-weight: bolder;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.back-to-top a {
+    border: 1px solid red;
+    text-decoration: none;
+    padding: 2px 15px;
+    border-radius: 10px
+}
+.main-doc-imgs {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+code{
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position:relative;
+    line-height: 2;
+    background-color:#494a50;
+    padding-right: 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+    color:white;
+    font-size: 1.2em;
+    word-break: normal;
+    word-wrap: normal;
+}
+.w3c-editor-link {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #3adf4a;
+}
+.w3c-editor-link a{
+    color: white;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight: bolder;
+} 
+.color-grid{
+    display:grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+}
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #nav { 
+        background-color: lightslategray;
+        flex-direction: column;
+        height: 30VH;
+        display: flex;
+        font-size: 1.4em;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        border-bottom: 3px solid white;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    #navbar{
+        background-color: lightslategray;
+        position:absolute;
+        top:0;
+        padding:0;
+        margin: 0;
+        width:100%;
+        height:25VH;
+        border-bottom: 2px solid #4d4e53;
+        z-index:1;
+    }
+    #main-doc{
+        position: relative;
+        margin-left:0px;
+        margin-top:45vh;
+    }
+    code{
+        width:85%;
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .back-to-top{
+        text-align: center;
+        display: block;
+        font-size: 1.0em;
+        margin-top: 20VH;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: 47% 47% ;
+        grid-template-rows: 100px 100px 100px 100px;
+        grid-gap: 25px;
+        align-content: center;
+        color: white;
+        font-size: 1em;
+        font-weight: bolder;
+    }
+}
+@media only screen and (max-width: 414px) {
+    code{
+        margin-left: auto;
+        margin-right: auto;
+        width:85%;
+        font-size: .8em;
+    }
+    #main-doc{
+        position: relative;
+        margin-left:0px;
+        margin-top:40vh;
+    }
+    .color-grid {
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 60px;
+        grid-gap: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-size: 1em;
+        font-weight: bolder;
+    }
+}
